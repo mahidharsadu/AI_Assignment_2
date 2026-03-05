@@ -22,7 +22,7 @@ def dls(limit):
 
     def recursive(state, depth, visited):
 
-        if depth > limit:   # 🔴 IMPORTANT
+        if depth > limit:  
             return False
 
         if state in visited:
